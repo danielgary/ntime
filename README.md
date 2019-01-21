@@ -14,12 +14,12 @@ Options:
                                                                       "seconds"]
 ```
 
-Installation:
+## Installation:
 ```
 npm install -g @gatewayapps/ntimer
 ```
 
-Example
+## Example
 ```
 > ntimer -s -u milliseconds curl www.google.com
 curl www.google.com  completed in 186 milliseconds
