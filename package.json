@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "ntimer": "./dist/ntime.js"
+    "ntimer": "./dist/ntimer.js"
   },
   "scripts": {
     "build": "npx tsc",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./dist/ntime.js"
+    "start": "node ./dist/ntimer.js"
   },
   "repository": {
     "type": "git",
