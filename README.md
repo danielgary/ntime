@@ -3,7 +3,7 @@
 Time the execution of a command
 
 ```
-Usage: ntimer -s <command to time>
+Usage: ntimer -s -u [unit] -- <command to time>
 
 Options:
   --help                              Show help                        [boolean]
@@ -21,10 +21,10 @@ npm install -g @gatewayapps/ntimer
 
 ## Example
 ```
-> ntimer -s -u milliseconds curl www.google.com
+> ntimer -s -u milliseconds -- curl www.google.com
 curl www.google.com  completed in 186 milliseconds
 
-> ntimer -s -u seconds curl www.github.com
+> ntimer -s -u seconds -- curl www.github.com
 curl www.github.com  completed in 0.251 seconds
 
 ```

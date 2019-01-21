@@ -5,7 +5,7 @@ import chalk from 'chalk'
 import yargs from 'yargs'
 
 let ntimerArgs = yargs
-  .usage(`Usage: ntimer -s <command to time>`)
+  .usage(`Usage: ntimer -s -u [unit] -- <command to time>`)
   .alias('s', 'Suppress output from command')
   .alias('u', 'Units of time')
 
