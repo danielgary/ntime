@@ -14,6 +14,10 @@ Options:
                                                                       "seconds"]
 ```
 
+Installation:
+```
+npm install -g @gatewayapps/ntimer
+```
 
 Example
 ```
