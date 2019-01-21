@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danielgary/ntime.git"
+    "url": "git+https://github.com/gatewayapps/ntimer.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danielgary/ntime/issues"
+    "url": "https://github.com/gatewayapps/ntimer/issues"
   },
-  "homepage": "https://github.com/danielgary/ntime#readme",
+  "homepage": "https://github.com/gatewayapps/ntimer#readme",
   "devDependencies": {
     "@types/node": "^10.12.18",
     "prettier": "^1.16.0",
